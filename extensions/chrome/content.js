@@ -28,7 +28,7 @@ function UpdateInputElements() {
         console.log('Text found:', elementText);
       }
     });
-
+    // Insert logic for each MFA code asking page
     // AWS case (when input field appears after clicking "Next" button)
     const nextButton = document.getElementById('signin_button'); // Replace 'next_button' with the appropriate ID of your "Next" button
     if (nextButton) {
