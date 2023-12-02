@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:/Users/ceb/Documents/dor1an2FA/dor1an2FA.xcodeproj">
+      location = "group:dor1an2FA.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Carthage/Checkouts/Base32/Base32.xcodeproj">
