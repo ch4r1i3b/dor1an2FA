@@ -3,6 +3,8 @@
 
 dor1an2FA is a free, open-source [two-factor authentication](https://en.wikipedia.org/wiki/Two-factor_authentication) app designed for simplicity. It uses innovative screen-to-camera communication to automagically autofill the 6-digit [TOTP](https://en.wikipedia.org/wiki/Time-based_one-time_password) token required as the second factor for secure web application logins.
 
+*dor1an2FA is an open source part of the dor1an project (https://dor1an.com), a USPTO patent-pending initiative of a secrets management suite designed to facilitate secure and efficient management of sensitive information, such as tokens and passwords.*
+
 It has two components: a mobile Authenticator-like application combined with a browser extension in order to talk each other via screen-camera communication.
 
 
