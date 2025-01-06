@@ -9,10 +9,10 @@ It has two components: a mobile Authenticator-like application combined with a b
 
 <img src="dor1an2FA_flow.png" width="1000" alt="Flow of dor1an2FA" /> 
 
-<img src="dor1an2FA_extension.png" width="200" alt="Screenshot of dor1an2FA Extension" /> &nbsp;
-<img src="dor1an2FA_list.png" width="200" alt="Screenshot of dor1an2FA token list" /> &nbsp;
-<img src="dor1an2FA_front_camera.png" width="200" alt="Screenshot of dor1an2FA hostname QR Code scanner" /> &nbsp;
-<img src="dor1an2FA_QR_code.png" width="200" alt="Screenshot of dor1an2FA QR Code" />
+<img src="dor1an2FA_extension.png" width="190" alt="Screenshot of dor1an2FA Extension" /> &nbsp;
+<img src="dor1an2FA_list.png" width="190" alt="Screenshot of dor1an2FA token list" /> &nbsp;
+<img src="dor1an2FA_front_camera.png" width="190" alt="Screenshot of dor1an2FA hostname QR Code scanner" /> &nbsp;
+<img src="dor1an2FA_QR_code.png" width="190" alt="Screenshot of dor1an2FA QR Code" />
 
 
 ## Getting Started
