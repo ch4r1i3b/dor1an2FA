@@ -1,8 +1,0 @@
-scheme "Authenticator"
-clean true
-export_options(
-  method: "app-store",
-  provisioningProfiles: {
-    "me.mattrubin.authenticator": "Authenticator Distribution"
-  },
-)

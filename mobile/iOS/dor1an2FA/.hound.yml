@@ -1,4 +1,0 @@
-# Configuration for Hound (https://houndci.com)
-
-swift:
-  config_file: .swiftlint.yml
