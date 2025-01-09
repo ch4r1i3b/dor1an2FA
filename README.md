@@ -83,4 +83,10 @@ Other browsers extensions are under development.
 
 ### Web site support
 
+In HTML, password fields are standardized as input elements of type "password". However, for the 6-digit second factor, there is no standardization. The input element can be of any type (commonly "text" or "password"), and its ID or name attribute can vary widely across implementations.
 
+This lack of standardization makes it challenging to reliably identify fields for entering the 6-digit second factor on websites.
+
+With dor1an2FA, the strategy is to automatically detect input fields of type "text" or "password" and then search for IDs or names containing keywords like "mfa", "otp", "2fa", "6-digit", and similar patterns.
+
+As new variations or naming conventions are encountered, they will be analyzed and added to the detection criteria, ensuring compatibility with a broader range of websites.
