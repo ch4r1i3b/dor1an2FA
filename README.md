@@ -67,26 +67,26 @@ This project is made available under the terms of the [MIT License](https://open
 
 ## Known Limitations
 
-Up to know, this project has the following limitations:
+As of now, this project has the following limitations:
 
-### Mobile support
+### Mobile Support
 
-It is only developed for Apple iOS, and can be installed from Xcode as developer.
-The code is in the process of being uploaded to the Apple Store.
-Android version is under development.
+- Currently developed only for Apple iOS and can be installed via Xcode as a developer.  
+- The code is in the process of being submitted to the Apple App Store.  
+- An Android version is under development.  
 
-### Browser support
+### Browser Support
 
- It is only developed for Google Chome, and can be installed manually as developer.
-The code is in the process of being uploaded to the Google Play.
-Other browsers extensions are under development.
+- Currently developed only for Google Chrome and can be installed manually as a developer.  
+- The code is in the process of being submitted to the Chrome Web Store.  
+- Extensions for other browsers are under development.  
 
-### Web site support
+### Website Support
 
-In HTML, password fields are standardized as input elements of type "password". However, for the 6-digit second factor, there is no standardization. The input element can be of any type (commonly "text" or "password"), and its ID or name attribute can vary widely across implementations.
+In HTML, password fields are standardized as input elements of type `"password"`. However, for the 6-digit second factor, there is no standardization. The input element can be of any type (commonly `"text"` or `"password"`), and its ID or name attribute can vary significantly between implementations.
 
 This lack of standardization makes it challenging to reliably identify fields for entering the 6-digit second factor on websites.
 
-With dor1an2FA, the strategy is to automatically detect input fields of type "text" or "password" and then search for IDs or names containing keywords like "mfa", "otp", "2fa", "6-digit", and similar patterns.
+To address this, dor1an2FA employs a strategy to automatically detect input fields of type `"text"` or `"password"` and searches for IDs or names containing keywords such as `"mfa"`, `"otp"`, `"2fa"`, `"6-digit"`, and similar patterns.
 
-As new variations or naming conventions are encountered, they will be analyzed and added to the detection criteria, ensuring compatibility with a broader range of websites.
+As new variations or naming conventions are discovered, they will be analyzed and added to the detection criteria, ensuring improved compatibility with a wider range of websites.
