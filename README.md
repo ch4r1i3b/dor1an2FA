@@ -65,6 +65,22 @@ It has two components: a mobile Authenticator-like application combined with a b
 
 This project is made available under the terms of the [MIT License](https://opensource.org/licenses/MIT).
 
+## Known Limitations
 
+Up to know, this project has the following limitations:
+
+### Mobile support
+
+It is only developed for Apple iOS, and can be installed from Xcode as developer.
+The code is in the process of being uploaded to the Apple Store.
+Android version is under development.
+
+### Browser support
+
+ It is only developed for Google Chome, and can be installed manually as developer.
+The code is in the process of being uploaded to the Google Play.
+Other browsers extensions are under development.
+
+### Web site support
 
 
